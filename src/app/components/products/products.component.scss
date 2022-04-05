@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container2{
+   margin-left: 4%;
+}
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+}
+.card{
+    padding: 20px;
+    margin: 50px;
+    border-radius: 30px;
+    justify-content: center;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+    margin: auto;
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.card h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn{
+    background-color: black;
+    height: 40px;
+    border: none;
+    justify-self: center;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.3);
+    color: black;
+}
+
