@@ -45,4 +45,30 @@
     background-color: rgba(0,0,0,0.3);
     color: black;
 }
+@media (max-width: 730px) {
+    .card{
+        width: 300px;
+        padding: 5px;
+        margin: 6px;
+        border-radius: 30px;
+        justify-content: center;
+    }
+    .card img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 9px;
+    }
+    .btn{
+        background-color: black;
+        margin: auto;
+        width: 200px;
+        height: 20px;
+        border: none;
+        justify-self: center;
+    }
+    .container2{
+   margin-left: 5px;
+}
+    
+  }
 

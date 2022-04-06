@@ -9,9 +9,6 @@
   padding: 40px;
   padding-left: 80px;
 }
-#chk1 {
-  display: none;
-}
 .logo {
   display: flex;
 }
@@ -50,6 +47,18 @@
 }
 @media (max-width: 520px) {
   .header {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
     flex-direction: column;
+  }
+  .logo{
+    padding: 10px;
+  }
+  .menu{
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
