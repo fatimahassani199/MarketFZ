@@ -1,7 +1,7 @@
 <ng-container *ngIf="product.length !=0">
     <div class="container">
         <div class="card-table">
-            <div class="card-product">
+            <div class="card-product table-responsive">
                 <table class="table table-responsive">
                     <thead>
                         <tr>
@@ -44,14 +44,16 @@
 </ng-container>
 <ng-container *ngIf="product.length === 0">
     <div class="container">
-        <div class="card">
-            <h5 class="card-title">My Card</h5>
-        </div>
-        <div class="center">
-            <i class="icon fa-solid fa-cart-arrow-down"></i>
-            <h4>Your card is empty!</h4>
-            <h6>Add items to it now </h6>
-            <button routerLink="/products" class="btn btn2">Shop NOW</button>
-        </div>
+        <main class="grid">
+            <article>
+                <i class="icon fa-solid fa-cart-arrow-down icon2"></i>
+                <div class="text">
+                    <h3>Your card is empty!</h3>
+                    <p>Add items to it now</p>
+                    <a routerLink="/products" class="btn  btn-block btn2">Shop
+                        NOW</a>
+                </div>
+            </article>
+        </main>
     </div>
 </ng-container>

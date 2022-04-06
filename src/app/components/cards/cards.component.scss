@@ -17,10 +17,6 @@
     background-color: black;
     color: white;
 }
-.btn2:hover{
-    background-color: rgba(0, 0, 0, 0.5);
-    color: black;
-}
 .icon{
     font-size: 70px;
 }
@@ -44,5 +40,35 @@
 }
 
 .container{
-    margin-top: 70px;
+    text-align: center;
+    margin: auto;
+    
+}
+.grid {
+    display: grid;
+    margin-top: 100px;
+  }
+  
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .grid > article img {
+    max-width: 100%;
+  }
+  
+  .grid .text {
+    padding: 20px;
+  }
+  .icon2{
+      padding-top: 20px;
+  }
+ .btn2{
+     background-color: black;
+     color: white;
+ }
+ .btn2:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
 }
